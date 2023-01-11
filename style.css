@@ -1,0 +1,54 @@
+body {
+	background-color: gainsboro;
+	display: grid;
+	place-items: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	width: 9ch;
+	border-right: 4px solid;
+	animation: 
+	  typing 2s steps(9),
+	  blink-caret .75s infinite step-end alternate;
+	  overflow: hidden;
+}
+  
+  /* The typing effect */
+@keyframes typing {
+	from { width: 0 }
+}
+  
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+	50% { border-color: orange; }
+}
+
+thead {
+	background-color: rgb(241, 184, 78);
+}
+
+table {
+    border: 2px solid rgb(50, 142, 204);
+    width: 650px;
+    margin: 0 auto;
+	border-radius:  5px;
+}
+  
+td {
+	border-top: 2px solid rgb(50, 142, 204);
+	border-left: 2px solid rgb(50, 142, 204);
+	border-right: 2px solid rgb(50, 142, 204);
+	border-radius: 5px;
+}
+.table-labels {
+
+}
+.table-description {
+	font-size: large;
+}
