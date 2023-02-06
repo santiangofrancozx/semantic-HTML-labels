@@ -4,3 +4,5 @@ the tables in HTML can we some util tu understand the importance whit the compon
 if u see my code yo can apreciate its so repetitive, whit components u can re-use and do this so much fast and easy to read
 # :3
 # front-end its bored
+
+### link: https://santiangofrancozx.github.io/semantic-HTML-labels/
